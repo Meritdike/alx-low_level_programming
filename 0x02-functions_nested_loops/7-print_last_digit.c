@@ -23,11 +23,10 @@ int print_last_digit(int m)
 	}
 	else
 	{
-		m = m;
-		n = m % 10;
+		m = m % 10;
 
-		_putchar(n + '0');
+		_putchar(m + '0');
 
-		return (n);
+		return (m);
 	}
 }
