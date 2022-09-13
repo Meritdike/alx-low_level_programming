@@ -8,14 +8,14 @@
  * Return: the absolute value of int
  */
 
-int _abs(int)
+int _abs(int m)
 {
-	if (n >= 0)
+	if (m >= 0)
 	{
-		return (n);
+		return (m);
 	}
 	else
 	{
-		return (-n);
+		return (-m);
 	}
 }
