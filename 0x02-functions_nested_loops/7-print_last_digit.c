@@ -10,23 +10,22 @@
 
 int print_last_digit(int m)
 {
-	int n;
+	int lastNum;
 
 	if (m < 0)
 	{
-		m = -m;
-		n = m % 10;
+		lastNum = (-1 * (m % 10));
 
-		_putchar(n + '0');
+		_putchar(lastNum + '0');
 
-		return (n);
+		return (lastNum);
 	}
 	else
 	{
-		m = m % 10;
+		lastNum = m % 10;
 
-		_putchar(m + '0');
+		_putchar(lastNum + '0');
 
-		return (m);
+		return (lastNum);
 	}
 }
