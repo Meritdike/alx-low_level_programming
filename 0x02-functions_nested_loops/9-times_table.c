@@ -7,6 +7,7 @@
 void times_table(void)
 {
 	int a, b, c;
+
 	for (a = 0; a < 10; a++)
 	{
 		_putchar('0');
@@ -28,6 +29,6 @@ void times_table(void)
 			}
 			_putchar((c % 10) + '0');
 		}
-		_putchar('\n');
 	}
+			_putchar('\n');
 }
