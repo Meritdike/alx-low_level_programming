@@ -8,11 +8,28 @@
 
 void print_diagonal(int n)
 {
-	int slash;
-
-	for (slash = 0; slash < n; slash++)
+	if (n <= 0)
 	{
-		_putchar('\\');
-	}
 		_putchar('\n');
+	}
+	else
+	{
+		int slash, space;
+
+		for (slash = 0; slash < n; slash++)
+		{
+			for (space = 0; space < n; space++)
+			{
+				if (space == slash)
+				{
+					_putchar('\\');
+				}
+				else if (space < slash)
+				{
+					_putchar(' ');
+				}
+			}
+				_putchar('\n');
+		}
+	}
 }
