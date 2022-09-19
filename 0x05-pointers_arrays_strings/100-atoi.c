@@ -11,8 +11,7 @@ int _atoi(char *s)
 	int num1 = 1;
 	unsigned int num2 = 0;
 
-	do
-	{
+	do{
 		if (*s == '-')
 		{
 			num1 *= -1;
@@ -25,8 +24,6 @@ int _atoi(char *s)
 		{
 			break;
 		}
-	}
-	while (*s++);
-	
+	}while (*s++);	
 	return (num1 * num2);
 }
