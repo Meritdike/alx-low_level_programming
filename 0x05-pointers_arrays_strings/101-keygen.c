@@ -24,7 +24,7 @@ int main(void)
 		j += pass[i] + '0';
 		_putchar(pass[i] + '0');
 
-		if ((2772 - sum) - '0' < 78)
+		if ((2772 - j) - '0' < 78)
 		{
 			k = 2772 - j - '0';
 			j += k;
