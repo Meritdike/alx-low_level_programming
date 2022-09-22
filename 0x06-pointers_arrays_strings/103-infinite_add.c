@@ -16,9 +16,9 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	a = 0;
 	b = 0;
 
-	while (n1[a] != '\0')
+	while (n1[a])
 		a++;
-	while (n2[b] != '\0')
+	while (n2[b])
 		b++;
 	if (a > size_r || b > size_r)
 		return (0);
