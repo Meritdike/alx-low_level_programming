@@ -19,6 +19,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		;
 	if (a > size_r || b > size_r)
 		return (0);
+
 	e = 0;
 	for (a -= 1, b -= 1, c = 0; c < size_r - 1; a--, b--, c++)
 	{
@@ -28,7 +29,9 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		if (b >= 0)
 			f += n2[b] - '0';
 		if (a < 0 && b < 0 && f == 0)
+		{
 			break;
+		}
 		e = f / 10;
 		r[c] = f % 10 + '0';
 	}
