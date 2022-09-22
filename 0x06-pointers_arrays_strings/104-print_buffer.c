@@ -25,7 +25,7 @@ void print_line(char *c, int s, int l)
 		}
 		if (i % 2)
 		{
-			_putchar(' ');
+			putchar(' ');
 		}
 	}
 
@@ -33,11 +33,11 @@ void print_line(char *c, int s, int l)
 	{
 		if (c[l * 10 + j] > 31 && c[l * 10 + j] < 127)
 		{
-			_putchar(c[l * 10 + j]);
+			putchar(c[l * 10 + j]);
 		}
 		else
 		{
-			_putchar('.');
+			putchar('.');
 		}
 	}
 }
@@ -64,10 +64,10 @@ void print_buffer(char *b, int size)
 		{
 			print_line(b, size % 10 - 1, k);
 		}
-			_putchar('\n');
+			putchar('\n');
 	}
 		if (size == 0)
 		{
-			_putchar('\n');
+			putchar('\n');
 		}
 }
