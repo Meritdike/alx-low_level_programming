@@ -26,6 +26,6 @@ char *_strcat(char *dest, char *src)
 		len++;
 	}
 
-	desk[index] = '\0';
+	dest[index] = '\0';
 	return (dest);
 }
