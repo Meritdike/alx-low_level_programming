@@ -41,7 +41,7 @@ int main(int argc, char **argv)
 	{
 		if (num(argv[i]))
 		{
-			sum += atoi (argv[i]);
+			sum += atoi(argv[i]);
 		}
 		else
 		{
