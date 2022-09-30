@@ -12,7 +12,7 @@ bool num(char *a)
 
 	for (i = 0; a[i]; i++)
 	{
-		if (!(a[i] >= 0 && a[i] < 10))
+		if (!(a[i] >= '0' && a[i] <= '9'))
 		{
 			return (0);
 		}
