@@ -10,7 +10,7 @@
 
 int main(int argc, char **argv)
 {
-	int i, minNum = atoi(argv[1]), result = 0;
+	int i, minNum, result;
 
 	int cents[] = {25, 10, 5, 2, 1};
 
@@ -19,6 +19,9 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		return (1);
 	}
+
+	minNum = atoi(argv[1])
+	result = 0;
 
 	if (minNum < 0)
 	{
