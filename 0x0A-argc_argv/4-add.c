@@ -16,8 +16,8 @@ bool num(char *a)
 		{
 			return (0);
 		}
-		return (1);
 	}
+		return (1);
 }
 
 /**
@@ -48,7 +48,7 @@ int main(int argc, char **argv)
 			printf("Error\n");
 			return (1);
 		}
+	}
 		printf("%d\n", sum);
 		return (0);
-	}
 }
