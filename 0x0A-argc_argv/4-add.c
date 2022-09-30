@@ -29,7 +29,7 @@ bool num(char *a)
 
 int main(int argc, char **argv)
 {
-	int i, sum;
+	int i, sum = 0;
 
 	if (argc == 1)
 	{
