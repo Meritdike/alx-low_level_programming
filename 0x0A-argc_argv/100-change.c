@@ -20,7 +20,7 @@ int main(int argc, char **argv)
 		return (1);
 	}
 
-	minNum = atoi(argv[1])
+	minNum = atoi(argv[1]);
 	result = 0;
 
 	if (minNum < 0)
