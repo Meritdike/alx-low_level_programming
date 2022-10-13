@@ -5,7 +5,7 @@
  * on each element of an array
  * @array: array to iterate over
  * @size: size of the array
- * action: A pointer to the function to be executed
+ * @action: A pointer to the function to be executed
  */
 
 void array_iterator(int *array, size_t size, void (*action)(int))
