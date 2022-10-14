@@ -12,7 +12,7 @@ void print_all(const char * const format, ...)
 	va_list listings;
 
 	va_start(listings, format);
-	
+
 	while (format && format[i])
 	{
 		switch (format[i])
@@ -32,8 +32,6 @@ void print_all(const char * const format, ...)
 					string = "(nil)";
 				printf("%s%s", separator, string);
 				break;
-			default:
-				i++;
 		}
 			i++;
 	}
