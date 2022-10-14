@@ -8,7 +8,7 @@
 void print_all(const char * const format, ...)
 {
 	int i = 0;
-	char *string, *separator = ", ";
+	char *string, *separator = "";
 	va_list listings;
 
 	va_start(listings, format);
@@ -36,6 +36,7 @@ void print_all(const char * const format, ...)
 				i++;
 				continue;
 		}
+			separator = ", ";
 			i++;
 	}
 		printf("\n");
