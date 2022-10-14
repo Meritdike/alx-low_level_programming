@@ -19,11 +19,12 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		if (string == NULL)
 		{
 			string = "(nil)";
+			printf("%s%s", separator, string);
 		}
 		else if (separator == NULL || (separator && i == 0))
-			printf("%s", string);
+			printf("%s", va_arg(strings, char *));
 		else
-			printf("%s%s", separator, string);
+			printf("%s%s", separator, va_arg(strings, char *));
 	}
 		printf("\n");
 		va_end(strings);
