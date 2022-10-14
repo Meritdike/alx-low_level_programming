@@ -23,9 +23,9 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			printf("%s%s", separator, string);
 		}
 		else if (separator == NULL || (separator && i == 0))
-			printf("%s", va_arg(strings, char *));
+			printf("%s", string);
 		else
-			printf("%s%s", separator, va_arg(strings, char *));
+			printf("%s%s", separator, string);
 	}
 		printf("\n");
 		va_end(strings);
