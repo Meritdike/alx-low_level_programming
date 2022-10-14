@@ -32,6 +32,9 @@ void print_all(const char * const format, ...)
 					string = "(nil)";
 				printf("%s%s", separator, string);
 				break;
+			default:
+				i++;
+				continue;
 		}
 			i++;
 	}
