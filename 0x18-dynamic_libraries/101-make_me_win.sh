@@ -1,4 +1,3 @@
 #!/bin/bash
-wget -P .. https://raw.githubusercontent.com/Meritdike/
-holbertonschool-low_level_programming/master/0x18-dynamic_libraries/libgiga.so
-export LD_PRELOAD="$PWD/../libgiga.so"
+wget -P /tmp https://github.com/joy02-gono/alx-low_level_programming/raw/master/0x18-dynamic_libraries/libmask.so
+export LD_PRELOAD=/tmp/libmask.so
