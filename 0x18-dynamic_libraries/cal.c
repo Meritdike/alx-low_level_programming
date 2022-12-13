@@ -37,13 +37,13 @@ int mul(int a, int b)
 }
 
 /**
- * divide - divides two numbers
+ * div - divides two numbers
  * @a: first number to be divided
  * @b: second number to be divided
  * Return: if success, return result
  */
 
-int divide(int a, int b)
+int div(int a, int b)
 {
 	return (a / b);
 }
